@@ -1,0 +1,849 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Unity Projects/Running-Man-Game
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56075
+Successfully changed project path to: D:/Unity Projects/Running-Man-Game
+D:/Unity Projects/Running-Man-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23332] Host "[IP] 192.168.100.57 [Port] 0 [Flags] 2 [Guid] 3001811646 [EditorId] 3001811646 [Version] 1048832 [Id] WindowsEditor(7,BIRS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23332] Host "[IP] 192.168.100.57 [Port] 0 [Flags] 2 [Guid] 3001811646 [EditorId] 3001811646 [Version] 1048832 [Id] WindowsEditor(7,BIRS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 78.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Running-Man-Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files (x86)/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files (x86)/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002234 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1043ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.53 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3857.
+Memory consumption went from 121.1 MB to 121.0 MB.
+Total: 3.766900 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.968500 ms  DeleteObjects: 0.161900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86362.374064 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures
+  artifactKey: Guid(891d1d8672daed647aad85fe928e0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures using Guid(891d1d8672daed647aad85fe928e0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a318ecd3511ede7855acaa3182afac28') in 0.014506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.245875 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_1
+  artifactKey: Guid(5e85cbfae8182d7498285c7d63b6e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_1 using Guid(5e85cbfae8182d7498285c7d63b6e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fac85b9e0a8110fad094794cdb1587a') in 0.009803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.307557 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_1/6x6_tex_BaseMap.png
+  artifactKey: Guid(8d00cc0f501f81a449e2d60bf127b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_1/6x6_tex_BaseMap.png using Guid(8d00cc0f501f81a449e2d60bf127b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e309c25b5d07dc637a26782ff134e') in 0.073055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.227411 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_2
+  artifactKey: Guid(906f1da572fd54847a6897e0f3799084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_2 using Guid(906f1da572fd54847a6897e0f3799084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad37a9caa603309299effe87a9bc77c3') in 0.009569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031811 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_2/6x6_tex_BaseMap.png
+  artifactKey: Guid(5a995bfad80d38a4fb32fa5e4ee11c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_2/6x6_tex_BaseMap.png using Guid(5a995bfad80d38a4fb32fa5e4ee11c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c728ae790eb777846cef6b62b66cb93f') in 0.029473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.284950 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_3
+  artifactKey: Guid(5bb87243af30cbd40b78c84f60579d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_3 using Guid(5bb87243af30cbd40b78c84f60579d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c4da443ae4aa686461e1d9f0bc497') in 0.009881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/6x6_tex_Normal.png
+  artifactKey: Guid(e437cfa59907e3a40b920e7362446f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/6x6_tex_Normal.png using Guid(e437cfa59907e3a40b920e7362446f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3538e2f44fb03d405cb812e5145219f2') in 0.050699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.414384 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/Materials
+  artifactKey: Guid(e2a15201981df5045b7a9f867e927f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/Materials using Guid(e2a15201981df5045b7a9f867e927f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6014213fb55dfd7244fdc4a2975f6c46') in 0.002194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119589 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/Materials/6x6_tex_BaseMap.mat
+  artifactKey: Guid(efa21c735cf0399429b9addc24b61e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_3/Materials/6x6_tex_BaseMap.mat using Guid(efa21c735cf0399429b9addc24b61e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5db03ebfce8837328fbc08e11d2cdae') in 0.053708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.481288 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes
+  artifactKey: Guid(1f6c56a2662a451488fa1df7efd53290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes using Guid(1f6c56a2662a451488fa1df7efd53290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ae27d2755a0fc70233a2b5cfc09105') in 0.011471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.225153 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo
+  artifactKey: Guid(b83485f9e7dd3de4fb2cfb5bc4e65b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo using Guid(b83485f9e7dd3de4fb2cfb5bc4e65b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4d17777485d789c40945a8873150e') in 0.009131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.149837 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/GameObject Profile.asset
+  artifactKey: Guid(4da0c64d76ee4c646827f24d0bef6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/GameObject Profile.asset using Guid(4da0c64d76ee4c646827f24d0bef6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e63b6802685b7fab8033873bf1201cb') in 0.011373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033930 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/LightingData.asset
+  artifactKey: Guid(d7c452d9553cb9743b647d0d0a688a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/LightingData.asset using Guid(d7c452d9553cb9743b647d0d0a688a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eb5adb85fd619ed2655aabe904f468') in 0.009634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007590 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(db0204d66f22e1e4996534d07ba00a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/Lightmap-0_comp_shadowmask.png using Guid(db0204d66f22e1e4996534d07ba00a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776c183d84f1cb53be47486e512613b4') in 0.030454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8a58f019307548d4ab9c99c08fe1acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo/Lightmap-1_comp_light.exr using Guid(8a58f019307548d4ab9c99c08fe1acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412a42bc1ad5dba54440fa7f213c2f2c') in 0.035316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.177865 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/6x6_tex_BaseMap.png
+  artifactKey: Guid(786bf2ef795dca34ab6475e5f64b1bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/6x6_tex_BaseMap.png using Guid(786bf2ef795dca34ab6475e5f64b1bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb73e47ffb9298ef2fc2dc21f0200879') in 0.028383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.975853 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_5/6x6_tex_BaseMap.png
+  artifactKey: Guid(f79de06fe0ece45458eab6c1db307914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_5/6x6_tex_BaseMap.png using Guid(f79de06fe0ece45458eab6c1db307914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605482c868bff664bb2a76e601a50b12') in 0.029685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.325541 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/6x6_tex_BaseMap.png
+  artifactKey: Guid(8dfbca7554fe5df45ba0d8f7dcee7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/6x6_tex_BaseMap.png using Guid(8dfbca7554fe5df45ba0d8f7dcee7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccea060a8265a7e5b435dbd52aff1cf') in 0.200461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.908429 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/Materials
+  artifactKey: Guid(9f89e3b7a337cc84c9fa86be6cba95f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/Materials using Guid(9f89e3b7a337cc84c9fa86be6cba95f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef97efa745596e5998d72f37fc9abe0') in 0.002463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246918 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/Materials/6x6_tex_BaseMap.mat
+  artifactKey: Guid(07f09254ade84134c84b0170135d1fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_4/Materials/6x6_tex_BaseMap.mat using Guid(07f09254ade84134c84b0170135d1fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb99cfb33d0ba6e25573de4c050af12') in 0.017516 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005343 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.8 KB). Loaded Objects now: 3907.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 3.450500 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.127400 ms MarkObjects: 2.750900 ms  DeleteObjects: 0.094900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.185788 seconds.
+  path: Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo.unity
+  artifactKey: Guid(09c811578c029c748a6a313590b8cd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Scenes/CyberpunkMaterialPack_Demo.unity using Guid(09c811578c029c748a6a313590b8cd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62335222d375883929b12f19d27a9681') in 0.013417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.423781 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_4
+  artifactKey: Guid(de0e41a4d143c5e4bb383960a059002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_4 using Guid(de0e41a4d143c5e4bb383960a059002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c098d9441d428e3658fb031b58b0d') in 0.011271 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.8 KB). Loaded Objects now: 3910.
+Memory consumption went from 125.6 MB to 125.6 MB.
+Total: 3.510000 ms (FindLiveObjects: 0.412700 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.861600 ms  DeleteObjects: 0.142700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.458307 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_6
+  artifactKey: Guid(6e88c0e45fadc3a49afbbfae83742719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_6 using Guid(6e88c0e45fadc3a49afbbfae83742719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566966895b0f11ddfde41aa62356e5f0') in 0.014791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.139292 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/Materials
+  artifactKey: Guid(0028a5e0816c3ee42a429562ec36730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/Materials using Guid(0028a5e0816c3ee42a429562ec36730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27faee12074fc06d7824bd096e9a635') in 0.002860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314281 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/Materials/6x6_tex_BaseMap.mat
+  artifactKey: Guid(7f0c8094f47336f4c88c5d38e58230fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_6/Materials/6x6_tex_BaseMap.mat using Guid(7f0c8094f47336f4c88c5d38e58230fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7d8bbda74a3b0a6a543e07571b1f53') in 0.073180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.972278 seconds.
+  path: Assets/Footsteps - Essentials
+  artifactKey: Guid(50be14717eede8f4aa8bb6844dce53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials using Guid(50be14717eede8f4aa8bb6844dce53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f4ff202ed284a3b566498e49bee83f') in 0.009981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.963920 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_DirtyGround
+  artifactKey: Guid(d0ba54a2ca348c945935f123f842b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_DirtyGround using Guid(d0ba54a2ca348c945935f123f842b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b07662509fd97844a0f27c2c68c638') in 0.009132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.898086 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal
+  artifactKey: Guid(9024c6c9a0565764abae1e25b1a5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal using Guid(9024c6c9a0565764abae1e25b1a5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b69f3cb6f8075d7fd40f0c0211abbb') in 0.008909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.656187 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run
+  artifactKey: Guid(fdac1dd317ecf204e8d1baf54cd08c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run using Guid(fdac1dd317ecf204e8d1baf54cd08c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578fd3c8e00c11903b0918e88d361e6b') in 0.008538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.295276 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_01.wav
+  artifactKey: Guid(b25225c72201cd740b16b95b86d57940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_01.wav using Guid(b25225c72201cd740b16b95b86d57940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f938931cdf4d54a0e41db574e627dc') in 0.032988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291125 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_03.wav
+  artifactKey: Guid(8900ae4b297a017448ddb78ea0c2d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_03.wav using Guid(8900ae4b297a017448ddb78ea0c2d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9ceb68a5b964f2cb27301295037d9c') in 0.015206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693886 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_02.wav
+  artifactKey: Guid(5e8e6e435e65fe146b588b8a9d2df461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_02.wav using Guid(5e8e6e435e65fe146b588b8a9d2df461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c330230768245abae8871962ba406e5') in 0.013796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.705606 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_04.wav
+  artifactKey: Guid(be6f9c5983062b9488c5423a7e1fd1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_04.wav using Guid(be6f9c5983062b9488c5423a7e1fd1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ab2e7949fb11c5921217f2d053e60') in 0.013777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.993788 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_05.wav
+  artifactKey: Guid(2244aa424da7d2f439f4c53fa73e8b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_05.wav using Guid(2244aa424da7d2f439f4c53fa73e8b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5ab1049ea1890590efea0277d1a14e') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.902910 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_06.wav
+  artifactKey: Guid(2c7ab9bda8ff6364ba31cc57a90a16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_06.wav using Guid(2c7ab9bda8ff6364ba31cc57a90a16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208e3e1b043f96eb8d06f5a7ab84f757') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.688663 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_07.wav
+  artifactKey: Guid(b16b005ddc0977b4aa402b5abce3205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_07.wav using Guid(b16b005ddc0977b4aa402b5abce3205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff7590ef2c07a01a5c51790f6dace2') in 0.014534 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003849 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.8 KB). Loaded Objects now: 3915.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 3.604700 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.938200 ms  DeleteObjects: 0.093700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.634109 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_11.wav
+  artifactKey: Guid(52c5e1808bea0b34e8abeab31591f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_11.wav using Guid(52c5e1808bea0b34e8abeab31591f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235cb1f6d3c7d459e7427609f4cec30c') in 0.050089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.929092 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_13.wav
+  artifactKey: Guid(9a47b64b8d432b94eb7317d268127b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_13.wav using Guid(9a47b64b8d432b94eb7317d268127b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af171ed818681ed5ab0d5b6781b7fe34') in 0.013207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.713127 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_12.wav
+  artifactKey: Guid(520f55c41638a0d408571ddf515810d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_12.wav using Guid(520f55c41638a0d408571ddf515810d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7753ebe65355a7ee5a780a651f6946') in 0.011804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.761846 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_10.wav
+  artifactKey: Guid(f7c73eb9b5b8af24b87031b591566444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_10.wav using Guid(f7c73eb9b5b8af24b87031b591566444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221a3b541b4a2be185be99a95426302') in 0.013085 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.9 KB). Loaded Objects now: 3918.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 3.557400 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.079600 ms MarkObjects: 3.103300 ms  DeleteObjects: 0.100400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.687210 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk
+  artifactKey: Guid(3063dc6d189f45642b356dab77be85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk using Guid(3063dc6d189f45642b356dab77be85c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20b0b58d533e9827be5d0aac0e3aeae') in 0.015678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.105309 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_01.wav
+  artifactKey: Guid(5e265270fb85126479eef52d8fce3b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_01.wav using Guid(5e265270fb85126479eef52d8fce3b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182706cc09aad001c93c17beb8a740a5') in 0.053586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.874342 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_02.wav
+  artifactKey: Guid(3701a5fdf99882f40bc00eb9053eec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_02.wav using Guid(3701a5fdf99882f40bc00eb9053eec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f9fa10f78cdac188fef6f73cd77207') in 0.013291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197563 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_04.wav
+  artifactKey: Guid(dfff2b3c7dfb43c419592789f0a6ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_04.wav using Guid(dfff2b3c7dfb43c419592789f0a6ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60af8a3937434a6ce6b997f8e5387c6d') in 0.014191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.942952 seconds.
+  path: Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_03.wav
+  artifactKey: Guid(2f949b40b7283404099a802630fb2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_03.wav using Guid(2f949b40b7283404099a802630fb2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3637b66ec985bb0d8cb30dcf7b36716c') in 0.018029 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.0 KB). Loaded Objects now: 3921.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 3.691500 ms (FindLiveObjects: 0.446800 ms CreateObjectMapping: 0.084400 ms MarkObjects: 3.054000 ms  DeleteObjects: 0.103800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.186306 seconds.
+  path: Assets/Cyberpunk Material Pack/Textures/cyberpunk_5
+  artifactKey: Guid(a48e784744cf3bd46a7e276e704ca055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk Material Pack/Textures/cyberpunk_5 using Guid(a48e784744cf3bd46a7e276e704ca055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547f4a6d51ef8b517f923d8b8d55848d') in 0.015722 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.8 KB). Loaded Objects now: 3924.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 3.812200 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.187100 ms  DeleteObjects: 0.116000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Running-Man-Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (79.8 KB). Loaded Objects now: 3927.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 4.006300 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.083300 ms MarkObjects: 3.438000 ms  DeleteObjects: 0.149900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
